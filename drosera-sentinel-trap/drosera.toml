@@ -20,7 +20,7 @@ address = "0x5A650F5B97d24C94fFC9f8De427c3509E8E5a7da"
 [traps.simpletrap]
 path = "out/SimpleTrap.sol/SimpleTrap.json"
 response_contract = "0x8eb2f4909448951D7Eaa123fa8f15618764e73cD"
-response_function = "collect()(bytes)"
+response_function = "collect()"
 cooldown_period_blocks = 32
 min_number_of_operators = 1
 max_number_of_operators = 2
@@ -31,7 +31,7 @@ address = "0x8eb2f4909448951D7Eaa123fa8f15618764e73cD"
 
 [traps.sentineltrap]
 path = "out/SentinelTrap.sol/SentinelTrap.json"
-response_contract = "0x48C396B149b2aF18D1711c8A716Dff627ab251cC"  # The contract address you deployed
+response_contract = "0x48C396B149b2aF18D1711c8A716Dff627ab251cC"
 response_function = "collect()"
 cooldown_period_blocks = 32
 min_number_of_operators = 1
