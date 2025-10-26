@@ -9,10 +9,34 @@ drosera_address = "0x91cB447BaFc6e0EA0F4Fe056F5a9b1F14bb06e5D"
 path = "out/Trap.sol/Trap.json"
 response_contract = "0x25E2CeF36020A736CF8a4D2cAdD2EBE3940F4608"
 response_function = "respondWithDiscordName(string)"
-cooldown_period_blocks = 32 
-min_number_of_operators = 1 
-max_number_of_operators = 2 
-block_sample_size = 1 
-private_trap = true 
-whitelist = [""] # paste your operator address here use EVM wallet Address
+cooldown_period_blocks = 32
+min_number_of_operators = 1
+max_number_of_operators = 2
+block_sample_size = 1
+private_trap = true
+whitelist = ["0x74fb4776f4261412f9438dd313d05340fa14da1d"]
+address = "0x5A650F5B97d24C94fFC9f8De427c3509E8E5a7da"
 
+[traps.simpletrap]
+path = "out/SimpleTrap.sol/SimpleTrap.json"
+response_contract = "0x8eb2f4909448951D7Eaa123fa8f15618764e73cD"
+response_function = "collect()"
+cooldown_period_blocks = 32
+min_number_of_operators = 1
+max_number_of_operators = 2
+block_sample_size = 1
+private_trap = true
+whitelist = ["0x74fb4776f4261412f9438dd313d05340fa14da1d"]
+address = "0x8eb2f4909448951D7Eaa123fa8f15618764e73cD"
+
+[traps.sentineltrap]
+path = "out/SentinelTrap.sol/SentinelTrap.json"
+response_contract = "0x48C396B149b2aF18D1711c8A716Dff627ab251cC"
+response_function = "collect()"
+cooldown_period_blocks = 32
+min_number_of_operators = 1
+max_number_of_operators = 2
+block_sample_size = 1
+private_trap = true
+whitelist = ["0x74fb4776f4261412f9438dd313d05340fa14da1d"]
+address = "0x48C396B149b2aF18D1711c8A716Dff627ab251cC"
